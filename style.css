@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Bebas Neue',cursive;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: red;
+    height: 100vh;
+    background-image: url(nana-aqua-pura-skin-mobile-legends-353@0@e-phone-4k\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile >img {
+    width: 150px;
+    height: 150px;
+    border:3px;
+    border-radius: 100px;
+}
+
+.profile >p {
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#ffff;
+    text-transfrom: capitalize;
+    text-align: center;
+    
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+.link >a {
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid #222;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    margin: 5px 10px ;
+    padding: 7px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.link >a:hover {
+    background-color: azure;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer >i {
+    color: white;
+    font-size: 23px;
+}
